@@ -4,7 +4,7 @@
       <q-img :src="imgPath" />
 
       <q-card-section>
-        <div class="row no-wrap justify-center q-gutter-xs text-grey">
+        <div class="row justify-center q-gutter-xs text-grey">
           <q-icon name="visibility" class="text-grey" /> {{ props.visited }} ・
           <q-icon name="shopping_cart" class="text-grey" />
           {{ props.ordered }} ・

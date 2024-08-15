@@ -7,9 +7,9 @@
       swipeable
       animated
       control-color="dark"
-      arrows
+      :arrows="$q.screen.width > 380"
       infinite
-      height="390px"
+      class="my-courusel"
     >
       <q-carousel-slide
         v-for="n in slidesCount"

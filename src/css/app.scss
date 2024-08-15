@@ -1,4 +1,9 @@
 // app global css in SCSS form
+:root {
+  --image-width: 350px;
+  --image-width-sm: 290px;
+}
+
 .text-my-color {
   color: #00acc1 !important;
 }
@@ -20,17 +25,46 @@ label {
   border-radius: 5px !important;
 }
 .my-card {
-  width: 350px;
-  min-width: 350px;
+  width: var(--image-width);
+  min-width: var(--image-width);
   border-radius: 10px;
 }
 .q-card > .q-img {
   border-radius: 10px !important;
-  width: 350px;
+  width: var(--image-width);
   height: 230px;
+}
+.search-title {
+  font-size: 2.125rem;
+  font-weight: 700;
 }
 .price {
   font-weight: 700;
   color: #00acc1;
   font-size: medium;
+}
+.my-courusel {
+  height: 390px;
+}
+@media screen and (max-width: 470px) {
+  .my-card {
+    width: var(--image-width-sm);
+    min-width: var(--image-width-sm);
+  }
+  .my-courusel {
+    height: 450px;
+  }
+  .q-card > .q-img {
+    border-radius: 10px !important;
+    width: var(--image-width-sm);
+    height: 198px;
+  }
+  main {
+    margin: 5px !important;
+  }
+}
+@media screen and (max-width: 690px) {
+  .search-title {
+    font-size: 1.5rem;
+  }
 }
