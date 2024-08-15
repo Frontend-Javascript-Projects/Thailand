@@ -46,6 +46,12 @@ label {
 .my-courusel {
   height: 390px;
 }
+.seach-tags {
+  overflow-x: scroll;
+}
+.search-tour {
+  margin: 4px;
+}
 @media screen and (max-width: 470px) {
   .my-card {
     width: var(--image-width-sm);
@@ -59,6 +65,16 @@ label {
     width: var(--image-width-sm);
     height: 198px;
   }
+  .search-tour {
+    margin: 0;
+  }
+  .q-carousel__slide {
+    display: block !important;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
   main {
     margin: 5px !important;
   }
@@ -66,5 +82,20 @@ label {
 @media screen and (max-width: 690px) {
   .search-title {
     font-size: 1.5rem;
+    text-align: center;
   }
+}
+// @media screen and (max-width: 420px) {
+//   .search-title {
+//     font-size: 5vw;
+//   }
+// }
+
+.seach-tags::-webkit-scrollbar {
+  display: none;
+}
+
+.seach-tags {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }

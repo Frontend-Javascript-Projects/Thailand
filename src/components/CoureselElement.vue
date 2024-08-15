@@ -1,6 +1,6 @@
 <template>
-  <div class="row justify-evenly q-gutter-sm">
-    <div v-for="tour in ourTours" :key="tour.id">
+  <div class="row justify-evenly">
+    <div v-for="tour in ourTours" :key="tour.id" class="search-tour">
       <TourCard
         :title="tour.title"
         :visited="tour.visited"

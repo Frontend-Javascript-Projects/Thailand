@@ -2,7 +2,7 @@
   <q-page class="col items-center justify-evenly q-mx-xl">
     <div class="search-title q-mb-lg">Поиск и бронирования экскурсии</div>
     <SearchBar />
-    <div class="q-mb-lg">
+    <div class="seach-tags row no-wrap q-mb-lg">
       <q-chip class="text-white" color="my-color" square>Phuket</q-chip>
       <q-chip class="text-white" color="my-color" square>Pattaya</q-chip>
       <q-chip class="text-white" color="my-color" square>Bangkok</q-chip>
