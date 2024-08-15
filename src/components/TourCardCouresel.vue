@@ -7,6 +7,7 @@
       swipeable
       animated
       control-color="dark"
+      arrows
       infinite
       height="390px"
     >
