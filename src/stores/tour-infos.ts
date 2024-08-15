@@ -4,7 +4,7 @@ export const useTourStore = defineStore('tours', {
   state: () => ({
     tours: [
       {
-        id: 1,
+        id: 0,
         title: 'Bangkok',
         visited: 45,
         ordered: 50,
@@ -17,10 +17,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 8,
         count: 70,
         type: 'Группавая',
-        img: 'https://www.google.com/imgres?q=tour%20images&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fhappy-traveler-woman-on-boat-260nw-2337247887.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fsmall-tour&docid=x1K5L3s4E4AXxM&tbnid=_xkyLnRmVP7srM&vet=12ahUKEwjbq_uJr_eHAxX6RPEDHbNrImoQM3oECF4QAA..i&w=463&h=280&hcb=2&ved=2ahUKEwjbq_uJr_eHAxX6RPEDHbNrImoQM3oECF4QAA',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn2p3xRAPsZDtCigNjp5Zi7FP5hHxErTcUuQ&s',
       },
       {
-        id: 2,
+        id: 1,
         title: 'Antalya',
         visited: 65,
         ordered: 75,
@@ -33,10 +33,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 10,
         count: 75,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOL98pqF2MzI7lcvMinp7vAJiPzLulIt-FVBTd55tfzGBRl7_L5bd0THOFqNK0KBeBU5Y&usqp=CAU',
       },
       {
-        id: 3,
+        id: 2,
         title: 'Phuket',
         visited: 50,
         ordered: 60,
@@ -49,10 +49,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 9,
         count: 65,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5Yrvn1x90IuKpYBvlgXvCT6YCSfQ5pugdd1VofRIAarZ4DJx8OsV37vDIkm1LgO6CdE&usqp=CAU',
       },
       {
-        id: 4,
+        id: 3,
         title: 'Izmir',
         visited: 70,
         ordered: 80,
@@ -65,10 +65,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 12,
         count: 80,
         type: 'Группавая',
-        img: 'https://www.google.com/imgres?q=tour%20images&imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fhappy-traveler-woman-on-boat-260nw-2337247887.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fsmall-tour&docid=x1K5L3s4E4AXxM&tbnid=_xkyLnRmVP7srM&vet=12ahUKEwjbq_uJr_eHAxX6RPEDHbNrImoQM3oECF4QAA..i&w=463&h=280&hcb=2&ved=2ahUKEwjbq_uJr_eHAxX6RPEDHbNrImoQM3oECF4QAA',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ884jJbvwORnX_olEtxP33S1YfwUl-PLlRiPzjuiKVvr_o6sHMGA-7Dy1vDj1ebdkf9o0&usqp=CAU',
       },
       {
-        id: 5,
+        id: 4,
         title: 'Chiang Mai',
         visited: 55,
         ordered: 65,
@@ -81,10 +81,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 7,
         count: 68,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadg1sgXPM7Dwax9XSatftPauY9ym2XNiJlEaG9ZkIGQLcX2kmX7yW8NQqepnjI7MVa28&usqp=CAU',
       },
       {
-        id: 6,
+        id: 5,
         title: 'Bursa',
         visited: 63,
         ordered: 70,
@@ -97,10 +97,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 9,
         count: 73,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-05wq7Vl-FES8TT3EheJ2VCIaoat6LQIR6Q&s',
       },
       {
-        id: 7,
+        id: 6,
         title: 'Pattaya',
         visited: 40,
         ordered: 55,
@@ -113,10 +113,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 8,
         count: 70,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcVv-0cfBppcoFac0IXy6TSbfYg8X_KYxGg&s',
       },
       {
-        id: 8,
+        id: 7,
         title: 'Ankara',
         visited: 75,
         ordered: 78,
@@ -129,10 +129,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 11,
         count: 77,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ov8sRhM64d1tCx4L7eMO9g5YxgTVHN7Wmg&s',
       },
       {
-        id: 9,
+        id: 8,
         title: 'Hua Hin',
         visited: 47,
         ordered: 60,
@@ -145,10 +145,10 @@ export const useTourStore = defineStore('tours', {
         timeDuration: 7,
         count: 66,
         type: 'Группавая',
-        img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzz8D241URzRwI-62aB8bD-XalSmStjxi4w&s',
       },
       {
-        id: 10,
+        id: 9,
         title: 'Istanbul',
         visited: 68,
         ordered: 75,
@@ -164,7 +164,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1493558103817-58b2924bce98',
       },
       {
-        id: 11,
+        id: 10,
         title: 'Ayutthaya',
         visited: 42,
         ordered: 54,
@@ -180,7 +180,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
       },
       {
-        id: 12,
+        id: 11,
         title: 'Gaziantep',
         visited: 60,
         ordered: 65,
@@ -196,7 +196,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 13,
+        id: 12,
         title: 'Krabi',
         visited: 35,
         ordered: 49,
@@ -212,7 +212,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
       },
       {
-        id: 14,
+        id: 13,
         title: 'Mardin',
         visited: 72,
         ordered: 78,
@@ -228,7 +228,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
       },
       {
-        id: 15,
+        id: 14,
         title: 'Trang',
         visited: 45,
         ordered: 57,
@@ -244,7 +244,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 16,
+        id: 15,
         title: 'Konya',
         visited: 65,
         ordered: 70,
@@ -260,7 +260,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1493558103817-58b2924bce98',
       },
       {
-        id: 17,
+        id: 16,
         title: 'Phang Nga',
         visited: 39,
         ordered: 53,
@@ -276,7 +276,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
       },
       {
-        id: 18,
+        id: 17,
         title: 'Adana',
         visited: 70,
         ordered: 75,
@@ -292,7 +292,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
       },
       {
-        id: 19,
+        id: 18,
         title: 'Koh Samui',
         visited: 48,
         ordered: 62,
@@ -308,7 +308,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
       },
       {
-        id: 20,
+        id: 19,
         title: 'Eskisehir',
         visited: 55,
         ordered: 68,
@@ -324,7 +324,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 21,
+        id: 20,
         title: 'Kanchanaburi',
         visited: 40,
         ordered: 54,
@@ -340,7 +340,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
       },
       {
-        id: 22,
+        id: 21,
         title: 'Sanliurfa',
         visited: 60,
         ordered: 66,
@@ -356,7 +356,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1493558103817-58b2924bce98',
       },
       {
-        id: 23,
+        id: 22,
         title: 'Nakhon Ratchasima',
         visited: 35,
         ordered: 50,
@@ -372,7 +372,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
       },
       {
-        id: 24,
+        id: 23,
         title: 'Van',
         visited: 72,
         ordered: 80,
@@ -388,7 +388,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 25,
+        id: 24,
         title: 'Rayong',
         visited: 50,
         ordered: 60,
@@ -404,7 +404,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
       },
       {
-        id: 26,
+        id: 25,
         title: 'Mugla',
         visited: 65,
         ordered: 72,
@@ -420,7 +420,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
       },
       {
-        id: 27,
+        id: 26,
         title: 'Trat',
         visited: 47,
         ordered: 57,
@@ -436,7 +436,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 28,
+        id: 27,
         title: 'Mersin',
         visited: 75,
         ordered: 78,
@@ -452,7 +452,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1493558103817-58b2924bce98',
       },
       {
-        id: 29,
+        id: 28,
         title: 'Sukhothai',
         visited: 40,
         ordered: 52,
@@ -468,7 +468,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
       },
       {
-        id: 30,
+        id: 29,
         title: 'Malatya',
         visited: 68,
         ordered: 76,
@@ -484,7 +484,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1527515637467-2d0ef3a1a6a3',
       },
       {
-        id: 31,
+        id: 30,
         title: 'Surat Thani',
         visited: 52,
         ordered: 63,
@@ -500,7 +500,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1529238062291-7932f7d47fa3',
       },
       {
-        id: 32,
+        id: 31,
         title: 'Denizli',
         visited: 60,
         ordered: 66,
@@ -516,7 +516,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0',
       },
       {
-        id: 33,
+        id: 32,
         title: 'Buriram',
         visited: 41,
         ordered: 54,
@@ -532,7 +532,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1557166086-184bcb380d9c',
       },
       {
-        id: 34,
+        id: 33,
         title: 'Aydin',
         visited: 64,
         ordered: 68,
@@ -548,7 +548,7 @@ export const useTourStore = defineStore('tours', {
         img: 'https://images.unsplash.com/photo-1493558103817-58b2924bce98',
       },
       {
-        id: 35,
+        id: 34,
         title: 'Phetchaburi',
         visited: 49,
         ordered: 60,

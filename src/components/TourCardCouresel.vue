@@ -18,7 +18,7 @@
         class="row no-wrap flex-center justify-evenly"
       >
         <CoureselElement
-          :tourIDs="tourIdsFormula(n * tourCountsForEachSlide)"
+          :tourIDs="tourIdsFormula((n - 1) * tourCountsForEachSlide)"
         />
       </q-carousel-slide>
     </q-carousel>
@@ -35,6 +35,10 @@ const $q = useQuasar();
 const slide = ref(1);
 const width = $q.screen.width;
 var tourCountsForEachSlide = computed(() => Math.floor(width / 400));
+console.log(
+  'tourCountsForEachSlide count is =>' + tourCountsForEachSlide.value
+);
+
 const slidesCount = computed(() =>
   Math.ceil(30 / tourCountsForEachSlide.value)
 );

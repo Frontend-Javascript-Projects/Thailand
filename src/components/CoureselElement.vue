@@ -14,6 +14,7 @@
         :time-duration="tour.timeDuration"
         :count="tour.count"
         :type="tour.type"
+        :img="tour.img"
       />
     </div>
   </div>
