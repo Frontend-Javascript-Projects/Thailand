@@ -40,7 +40,7 @@ console.log(
 );
 
 const slidesCount = computed(() =>
-  Math.ceil(30 / tourCountsForEachSlide.value)
+  Math.ceil(13 / tourCountsForEachSlide.value)
 );
 console.log('slide count is =>' + slidesCount.value);
 
@@ -51,6 +51,7 @@ const tourIdsFormula = (n: number) => {
   for (let i = 0; i < ids.length; i++) {
     ids[i] = n;
     n++;
+    if (n > 13) n = 0;
   }
   console.log('ids are like this=>' + ids);
 
