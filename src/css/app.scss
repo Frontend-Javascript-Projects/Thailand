@@ -1,0 +1,36 @@
+// app global css in SCSS form
+.text-my-color {
+  color: #00acc1 !important;
+}
+.bg-my-color {
+  background: #00acc1 !important;
+}
+.q-btn {
+  height: 40px !important;
+}
+.q-field__bottom {
+  padding-inline: 0 !important;
+  color: rgb(0, 0, 0, 1) !important;
+}
+label {
+  padding-bottom: 1px !important;
+}
+.q-chip {
+  margin-left: 0 !important ;
+  border-radius: 5px !important;
+}
+.my-card {
+  width: 350px;
+  min-width: 350px;
+  border-radius: 10px;
+}
+.q-card > .q-img {
+  border-radius: 10px !important;
+  width: 350px;
+  height: 230px;
+}
+.price {
+  font-weight: 700;
+  color: #00acc1;
+  font-size: medium;
+}
